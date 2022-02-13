@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171"
+      fx:controller="org.unidue.StartController" style="-fx-font-size: 16">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <VBox alignment="CENTER_LEFT"  spacing="10.0">
+       <Text>Every task is displayed over three columns from left to right:</Text>
+       <Text>1) one or more lists/tables describing function parameters</Text>
+       <Text>2) function code</Text>
+       <Text>3) possible outputs</Text>
+       <Text>Parameters and outputs are described in lists (primitives) or tables (objects).</Text>
+       <Text>When a function is returning a map, outputs will be entries with columns "key" and "value".</Text>
+       <Text>Every function is meant to be compilable - you don't have to look for compile errors.</Text>
+       <Text>Select the outputs you expect to occur when the function is executed with the parameters on the left
+       .</Text>
+       <Text>This could be a single output, multiple outputs when a collection is returned or none for when an empty
+       collection is returned.</Text>
+       <Text>Click the 'Submit'-button under the outputs when you're done selecting.</Text>
+       <Text>Press 'P' to pause during the task. Press it again to unpause.</Text>
+       <Button text="Start" onAction="#start"/>
+    </VBox>
+</HBox>

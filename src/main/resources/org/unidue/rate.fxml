@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<HBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.171"
+      fx:controller="org.unidue.RateController" style="-fx-font-size: 16">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <VBox alignment="CENTER_LEFT" spacing="30.0">
+        <fx:define>
+            <Insets fx:id="insets" right="10.0"/>
+        </fx:define>
+        <Label text="Wie gut fandest du dich?" style="-fx-font-weight: bold"/>
+        <HBox>
+            <fx:define>
+                <ToggleGroup fx:id="performanceGroup"/>
+            </fx:define>
+            <RadioButton text="1" userData="1" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="2" userData="2" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="3" userData="3" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="4" userData="4" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="5" userData="5" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="6" userData="6" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="7" userData="7" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="8" userData="8" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="9" userData="9" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="10" userData="10" toggleGroup="$performanceGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+        </HBox>
+        <Label text="Wie schnell fandest du dich?" style="-fx-font-weight: bold"/>
+        <HBox>
+            <fx:define>
+                <ToggleGroup fx:id="speedGroup"/>
+            </fx:define>
+            <RadioButton text="1" userData="1" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="2" userData="2" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="3" userData="3" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="4" userData="4" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="5" userData="5" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="6" userData="6" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="7" userData="7" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="8" userData="8" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="9" userData="9" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="10" userData="10" toggleGroup="$speedGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+        </HBox>
+        <Label text="Wie gut fandest du den Code?" style="-fx-font-weight: bold"/>
+        <HBox>
+            <fx:define>
+                <ToggleGroup fx:id="aestheticGroup"/>
+            </fx:define>
+            <RadioButton text="1" userData="1" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="2" userData="2" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="3" userData="3" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="4" userData="4" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="5" userData="5" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="6" userData="6" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="7" userData="7" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="8" userData="8" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="9" userData="9" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+            <RadioButton text="10" userData="10" toggleGroup="$aestheticGroup">
+                <HBox.margin>
+                    <fx:reference source="insets"/>
+                </HBox.margin>
+            </RadioButton>
+        </HBox>
+        <Button text="Submit" onAction="#rate"/>
+    </VBox>
+</HBox>
